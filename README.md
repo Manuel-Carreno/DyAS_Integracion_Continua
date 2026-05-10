@@ -71,3 +71,7 @@ En este taller, has aprendido a:
 - Verificar la ejecución del pipeline en GitLab.
 
 La configuración de un pipeline de CI ayuda a automatizar la integración y prueba del código, mejorando la eficiencia y la calidad del desarrollo de software.
+
+## Evidencias
+![Evidencia 1- ](img/img1.png)
+![Evidencia 2 - Etapas de build y test se han completado](img/img2.png)
