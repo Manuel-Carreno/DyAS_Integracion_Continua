@@ -92,4 +92,5 @@ El reporte de cobertura que podemos ver en la imagen de arriba fue generado auto
 - Maria Jose Palomino
 - Carlos Andres Diaz
 - Manuel David Carreño
+- Esteban Sequeda
 
