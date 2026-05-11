@@ -86,5 +86,10 @@ La configuración de un pipeline de CI ayuda a automatizar la integración y pru
 ### Reporte Jacoco
 ![Evidencia 5](img/img4.png)
 
-El reporte de cobertura que podemos ver en la imagen de arriba fue generado automaticamente por el pipeline de CI que definimos en GitHub Actions, el cual se encarga de ejecutar el comando de **mvn clean verify** sobre el taller de pruebas de integración (Registraduria), lo que significa que cada vez que se haga push, las pruebas corren solas y genera el reporte se genera automaticamente. Como ya sabemos, del taller de pruebas de integración las pruebas que alimentaron el reporte fueron hechas con H2 (base de datos), Mockito (simula el repositorio para verificar las interacciones del caso de uso) y HTTP (levanta el servidor completo y valida las respuestas del endpoint). El resultado global fue del 89% de cobertura, lo cual esta dentro de lo que nos pedian anteriormente (un minimo del 80%)
+El reporte de cobertura que podemos ver en la imagen de arriba fue generado automaticamente por el pipeline de CI que definimos en GitHub Actions, el cual se encarga de ejecutar el comando de **mvn clean verify** sobre el taller de pruebas de integración (Registraduria), lo que significa que cada vez que se haga push, las pruebas corren solas y genera el reporte automaticamente. Como ya sabemos, del taller de pruebas de integración las pruebas que alimentaron el reporte fueron H2 (base de datos en memoria), Mockito (simula el repositorio para verificar las interacciones del caso de uso) y HTTP (levanta el servidor completo y valida las respuestas del endpoint). El resultado global fue del 89% de cobertura, lo cual esta dentro de lo que nos pedian anteriormente (un minimo del 80%)
+
+## Integrantes
+- Maria Jose Palomino
+- Carlos Andres Diaz
+- Manuel David Carreño
 
